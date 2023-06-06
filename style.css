@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/istockphoto-1141905335-612x612.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fea081;
+}
+
+.containe{
+  user-select: none;
+}
+
+.containe .time{
+    font-size: 50px;
+    background: #ffece6;
+    padding: 0px 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.09);
+
+}
+.containe .time span{
+    color: #330c00;
+}
+.containe .time .colons{
+    margin: 20px;
+}
+.containe .time .melisecond{
+    color: #fea081 ;
+}
+button{
+    font-family: 'Playfair Display', serif;
+    border: 1px solid #330c00;
+    background-color: #ffece6;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #330c00;
+}
+button.active,
+button.stopActive{
+    cursor: not-allowed;
+    opacity: 0.8;
+}
